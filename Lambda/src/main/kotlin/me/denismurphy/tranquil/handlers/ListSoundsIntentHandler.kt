@@ -1,23 +1,20 @@
-package me.denismurphy.tranquil.handlers;
+package me.denismurphy.tranquil.handlers
 
-import com.amazon.ask.dispatcher.request.handler.HandlerInput;
-import com.amazon.ask.dispatcher.request.handler.RequestHandler;
-import com.amazon.ask.model.Response;
-import com.amazon.ask.request.Predicates;
+import com.amazon.ask.dispatcher.request.handler.HandlerInput
+import com.amazon.ask.dispatcher.request.handler.RequestHandler
+import com.amazon.ask.model.Response
+import com.amazon.ask.request.Predicates
+import java.util.*
 
-import java.util.Optional;
+class ListSoundsIntentHandler : RequestHandler {
 
-public class ListSoundsIntentHandler implements RequestHandler {
+    override fun canHandle(input: HandlerInput): Boolean {
 
-    @Override
-    public boolean canHandle(HandlerInput input) {
-
-        return input.matches(Predicates.intentName("ListSounds"));
+        return input.matches(Predicates.intentName("ListSounds"))
     }
 
-    @Override
-    public Optional<Response> handle(HandlerInput input) {
-        String speechText = "<speak>\n" +
+    override fun handle(input: HandlerInput): Optional<Response> {
+        val speechText = "<speak>\n" +
                 "    <prosody volume=\"x-loud\">The following genres are supported</prosody>\n" +
                 "    <break time=\"1s\"/>\n" +
                 "Celtic Music\n" +
@@ -43,8 +40,8 @@ public class ListSoundsIntentHandler implements RequestHandler {
                 "Snowstorm\n" +
                 "<break time=\"200ms\"/>\n" +
                 "Piano\n" +
-                "</speak>";
-        return input.getResponseBuilder()
+                "</speak>"
+        return input.responseBuilder
                 .withSpeech(speechText)
                 .withSimpleCard("Tranquil - List Music", "The following genres are supported :\n" +
                         "•   Irish\n" +
@@ -81,6 +78,6 @@ public class ListSoundsIntentHandler implements RequestHandler {
                         "•   Arctic\n" +
                         "•   Piano")
                 .withReprompt(speechText)
-                .build();
+                .build()
     }
 }
