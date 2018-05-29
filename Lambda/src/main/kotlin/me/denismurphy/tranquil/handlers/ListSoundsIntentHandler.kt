@@ -40,6 +40,8 @@ class ListSoundsIntentHandler : RequestHandler {
                 "Snowstorm\n" +
                 "<break time=\"200ms\"/>\n" +
                 "Piano\n" +
+                "<break time=\"200ms\"/>\n" +
+                "What genre would you like to play?"+
                 "</speak>"
         return input.responseBuilder
                 .withSpeech(speechText)
@@ -77,7 +79,7 @@ class ListSoundsIntentHandler : RequestHandler {
                         "•   Blizzard\n" +
                         "•   Arctic\n" +
                         "•   Piano")
-                .withReprompt(speechText)
+                .withReprompt("What genre would you like to play?")
                 .build()
     }
 }

@@ -7,7 +7,7 @@ import com.amazon.ask.model.Response
 import org.slf4j.LoggerFactory.getLogger
 import java.util.*
 
-class TranquilExecptionHandler : ExceptionHandler {
+public class TranquilExecptionHandler : ExceptionHandler {
 
     override fun canHandle(input: HandlerInput, throwable: Throwable): Boolean {
         return throwable is AskSdkException

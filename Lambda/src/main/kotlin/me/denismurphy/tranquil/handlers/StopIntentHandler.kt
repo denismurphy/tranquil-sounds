@@ -7,7 +7,7 @@ import com.amazon.ask.request.Predicates
 
 import java.util.Optional
 
-class StopIntentHandler : RequestHandler {
+public class StopIntentHandler : RequestHandler {
 
     override fun canHandle(input: HandlerInput): Boolean {
         return input.matches(Predicates.intentName("AMAZON.StopIntent"))
