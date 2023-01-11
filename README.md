@@ -1,4 +1,4 @@
-![Tranquil Sounds](https://github.com/denismurphy/tranquil-sounds/blob/master/Images/alexa_skill_icon_108.png?raw=true)
+![Tranquil Sounds](https://github.com/denismurphy/tranquil-sounds/blob/master/images/alexa_skill_icon_108.png?raw=true)
 
 # Tranquil Sounds
 
