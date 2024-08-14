@@ -1,32 +1,50 @@
 ![Tranquil Sounds](https://github.com/denismurphy/tranquil-sounds/blob/master/images/alexa_skill_icon_108.png?raw=true)
 
-# Tranquil Sounds
+# 🎵 Tranquil Sounds
 
-Tranquil Sounds is an Alexa skill designed to help you relax and de-stress through mindfulness and meditation. The skill plays calming sounds and relaxing music from a variety of genres, including Irish, Celtic, Calming, Relaxing, Crackling Fire, Fireplace, Harp, Meditation, Yoga, Bird Song, Forest, Nature, Rain, Space, Interstellar, Galaxy, Universe, Whale, Underwater, Deep Sea, Sea, Chimes, Wind Chimes, Snowstorm, Blizzard, Arctic, and Piano.
+Tranquil Sounds is an Alexa skill designed to help you relax and de-stress through mindfulness and meditation. 🧘‍♀️ The skill plays calming sounds and relaxing music from a variety of genres, creating a peaceful atmosphere for your mind and body.
 
-The skill is built using Kotlin and runs on AWS Lambda, with the MP3 files being served from an S3 bucket.
+Built using Kotlin and running on AWS Lambda, with MP3 files served from an S3 bucket, this skill offers a seamless and efficient experience. 🚀
 
-## Features
+## ✨ Features
 
--   Variety of genres to choose from, including Irish, Celtic, Calming, Relaxing, Crackling Fire, Fireplace, Harp, Meditation, Yoga, Bird Song, Forest, Nature, Rain, Space, Interstellar, Galaxy, Universe, Whale, Underwater, Deep Sea, Sea, Chimes, Wind Chimes, Snowstorm, Blizzard, Arctic, and Piano.
--   Mindfulness and meditation to bring more clarity, joy, and peace to your daily life.
--   Experience less anxiety and better sleep with calming sounds and relaxing music.
--   S3 bucket as MP3 source and AWS Lambda as execution runtime, to optimize skill performance and caching of files.
+- 🎶 Wide variety of genres including:
+  - 🍀 Irish & Celtic
+  - 🔥 Crackling Fire & Fireplace
+  - 🌿 Meditation & Yoga
+  - 🐦 Bird Song & Forest
+  - 🌧️ Rain & Nature
+  - 🌌 Space, Interstellar & Galaxy
+  - 🐳 Whale & Underwater
+  - 🌊 Deep Sea & Sea
+  - 🎐 Chimes & Wind Chimes
+  - ❄️ Snowstorm, Blizzard & Arctic
+  - 🎹 Piano
+- 🧠 Mindfulness and meditation to bring more clarity, joy, and peace to your daily life
+- 😴 Experience less anxiety and better sleep with calming sounds and relaxing music
+- ⚡ Optimized performance with S3 bucket as MP3 source and AWS Lambda as execution runtime
 
-## How to Use
+## 🎯 How to Use
 
-To use Tranquil Sounds, simply invoke the skill by saying "Alexa, open Tranquil Sounds" and then specify the genre you would like to listen to. For example, "Alexa, tell Tranquil Sounds to play Irish music".
+To use Tranquil Sounds, simply:
 
-You can also ask for random genre, "Alexa, tell Tranquil Sounds to play random genre".
+1. Say "Alexa, open Tranquil Sounds"
+2. Specify the genre you'd like to listen to
 
-## Contributing
+For example: "Alexa, tell Tranquil Sounds to play Irish music" 🎻
 
-This repository is intended as a learning tool. However, if you find any bugs or would like to improve the code, please feel free to open an issue or a pull request.
+Want to be surprised? Try: "Alexa, tell Tranquil Sounds to play random genre" 🎲
 
-## Authors
+## 🤝 Contributing
 
--   **Denis Murphy**
+This repository is intended as a learning tool. However, if you find any bugs or would like to improve the code, please feel free to open an issue or a pull request. We appreciate your contributions! 💡
 
-## License
+## 👨‍💻 Authors
+
+- **Denis Murphy**
+
+## 📄 License
 
 This project is licensed under the MIT License
+
+Relax, unwind, and enjoy the tranquil sounds! 🌟
