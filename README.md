@@ -6,6 +6,10 @@ Tranquil Sounds is an Alexa skill designed to help you relax and de-stress throu
 
 Built using Kotlin and running on AWS Lambda, with MP3 files served from an S3 bucket, this skill offers a seamless and efficient experience. 🚀
 
+## 🔉 Supported Devices
+
+![Just Ask Alexa](https://github.com/denismurphy/tranquil-sounds/blob/master/just-ask-alexa.png?raw=true)
+
 ## ✨ Features
 
 - 🎶 Wide variety of genres including:
