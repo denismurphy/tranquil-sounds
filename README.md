@@ -40,10 +40,6 @@ For example: "Alexa, tell Tranquil Sounds to play Irish music" 🎻
 
 Want to be surprised? Try: "Alexa, tell Tranquil Sounds to play random genre" 🎲
 
-## 👨‍💻 Authors
-
-- **Denis Murphy**
-
 ## 📄 License
 
 This project is licensed under the MIT License
