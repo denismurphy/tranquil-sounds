@@ -8,7 +8,11 @@ Built using Kotlin and running on AWS Lambda, with MP3 files served from an S3 b
 <br/>
 ## 🔉 Supports Alexa-capable devices
 
-![Just Ask Alexa](https://github.com/denismurphy/tranquil-sounds/blob/master/images/just_ask_alexa.svg?raw=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/denismurphy/tranquil-sounds/blob/master/images/just_ask_alexa_dark.svg?raw=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/denismurphy/tranquil-sounds/blob/master/images/just_ask_alexa_light.svg?raw=true">
+  <img alt="Just Ask Alexa" src="https://github.com/denismurphy/tranquil-sounds/blob/master/images/just_ask_alexa_light.svg?raw=true">
+</picture>
 <br/><br/>
 
 ## ✨ Features
