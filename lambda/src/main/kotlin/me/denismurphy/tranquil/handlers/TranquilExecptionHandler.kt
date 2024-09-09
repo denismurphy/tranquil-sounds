@@ -7,7 +7,7 @@ import com.amazon.ask.model.Response
 import org.slf4j.LoggerFactory.getLogger
 import java.util.*
 
-public class TranquilExecptionHandler : ExceptionHandler {
+class TranquilExecptionHandler : ExceptionHandler {
 
     override fun canHandle(input: HandlerInput, throwable: Throwable): Boolean {
         return throwable is AskSdkException
@@ -15,7 +15,7 @@ public class TranquilExecptionHandler : ExceptionHandler {
 
     override fun handle(input: HandlerInput, throwable: Throwable): Optional<Response> {
         val request = input.requestEnvelope.request
-        LOGGER.error("Request: " + request.toString())
+        LOGGER.error("Request: $request")
         LOGGER.error("Stacktrace", throwable)
         return input.responseBuilder
                 .withShouldEndSession(true)
